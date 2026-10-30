@@ -2,7 +2,6 @@
 
 [![Agent Skills Compatible](https://img.shields.io/badge/Agent%20Skills-Compatible-black?style=for-the-badge&logo=apple)](https://github.com/pushkarverse/apple-design)
 [![Supported Platforms](https://img.shields.io/badge/Platforms-iOS%20%7C%20macOS%20%7C%20iPadOS%20%7C%20visionOS-blue?style=for-the-badge)](https://developer.apple.com/design/human-interface-guidelines)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 > The definitive Apple UI/UX design, fluid interaction physics, and Human Interface Guidelines (HIG) review skill suite for all AI coding agents — engineered for **Antigravity**, **Claude Code**, **OpenAI-compatible agents**, **Cursor**, **Windsurf**, and **OpenHands**.
 
@@ -150,8 +149,3 @@ Synthesized and unified from foundational open-source engineering and official A
 - **[Dick Wu](https://github.com/dickwu)** for the comprehensive 123-page Apple Human Interface Guidelines crawl and cross-platform audit methodology.
 - **[Apple Developer](https://developer.apple.com/design/human-interface-guidelines)** for the Human Interface Guidelines, WWDC design sessions, and official Design Resources.
 
----
-
-## 📄 License
-
-MIT © [Pushkar](https://github.com/pushkarverse)
