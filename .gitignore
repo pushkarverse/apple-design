@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Cache & Build
+.cache/
+dist/
+build/
+
+# OS specific
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log

@@ -1,0 +1,12 @@
+# Apple Design Guidelines for Cursor & Windsurf
+
+When building, reviewing, or styling UI code:
+1. Adhere to Apple Human Interface Guidelines and fluid interface motion physics.
+2. Hit Targets: Ensure minimum 44x44pt on mobile and 28x28pt on desktop with proper hit padding.
+3. Materials Hierarchy: Liquid Glass belongs strictly on floating navigation/controls (tab bars, toolbars, sheets). Never apply glass or blur to content cards, lists, or content containers.
+4. Continuous Curvature: Use G2 squircle corners (Figma 60% corner smoothing, `corner-shape: squircle`, or continuous borders) instead of standard circular border-radius.
+5. Typography: Apply size-dependent tracking (negative for titles >= 20pt, positive for captions <= 15pt).
+6. Fluid Springs: Use critically damped springs (damping 1.0, response 0.35s) for UI settles; reserve bounce (~0.8) strictly for momentum flicks.
+7. Apple Pay: Never draw custom Apple Pay buttons or embed unofficial icon pack SVGs (violates App Store Guideline 4.9). Use native buttons or the official <apple-pay-button> SDK.
+8. Safari Web: Use <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> and apply env(safe-area-inset-*) padding on fixed bars.
+
